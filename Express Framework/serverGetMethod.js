@@ -7,7 +7,6 @@ app.get('/getMethodIndex.html', function(req,res){
 });
 
 app.get('/process_get',function(req,res){
-	//Prepare output for JSON format
 	response = {
 		firstName:req.query.firstName,
 		lastName:req.query.lastName
